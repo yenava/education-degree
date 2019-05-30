@@ -15,17 +15,21 @@ var option3 = {
             data:['2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017']
         },
         title: {
+            textColor:"#aa7f7b",
             subtext: '数据来自国家统计局',
             textStyle:{
                 fontSize:24
             }
         },
         grid:{
-            x:30,
+            x:100,
             y:100
         },
         tooltip:{
-
+            backgroundColor:'#c75f65',
+            textColor:"#f2e9de",
+            borderColor:"#f2e9de",
+            borderWidth:3
         },
         legend:{
             data: ['女', '男'],

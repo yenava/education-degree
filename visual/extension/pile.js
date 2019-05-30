@@ -3,6 +3,7 @@ var myChart1 = echarts.init(document.getElementById('main1'));
 var option1 = {
     tooltip : {
         trigger: 'axis',
+        backgroundColor:'#c75f65',
         formatter: function (params) {
             let res = params[0].name +'<br/>';
             for(var i=params.length-1;i>=0;i--){
@@ -11,6 +12,9 @@ var option1 = {
             }
             return res
         },
+        textColor:"#f2e9de",
+        borderColor:"#f2e9de",
+        borderWidth:3,
         axisPointer: {
             type: 'cross',
             label: {
@@ -24,7 +28,7 @@ var option1 = {
     toolbox: {
         feature: {
             saveAsImage: {}
-        }
+        },
     },
 
     xAxis : [

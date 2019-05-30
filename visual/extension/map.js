@@ -41,10 +41,24 @@ window.onload = function(){
                     borderWidth:3
                 }
             },
+            tooltip:{
+                formatter:function(params){
+                    value = Math.floor(params.value*10000)/100+'%'
+                    res = params.name + ": " +value
+                    return res
+                },
+                position:[400,10],
+                textColor:"#f2e9de",
+                borderColor:"#f2e9de",
+                borderWidth:3,
+                backgroundColor:'#c75f65',
+
+
+            },
             visualMap: {
                 min: 0.4,
                 max: 0.6,
-                precision:1,
+                precision:2,
                 text:["High","Low"],
                 itemHeight:100,
                 itemWidth:15,

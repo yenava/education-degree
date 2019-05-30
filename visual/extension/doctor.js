@@ -2,8 +2,6 @@ var myChart4 = echarts.init(document.getElementById('main4'))
 var maxData = 100;
 
 option4 = {
-    tooltip: {
-    },
     xAxis: {
         show:false,
         max: maxData,
