@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>work</title>
+    <script src="extension\echarts.js"></script>
+    <script src="extension\education_data.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/nini.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/base.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="data/china.js"></script>
+
+</head>
+<body>
+
+
+<!--标题文字-->
+    <div id="banner" style="position: relative; width: 100%;height:100%">
+        <div class="fad" style="position:absolute;top: 50%; right: 0;left: 0;" >
+            <h1 class="banner-text" align="center">男女教育普及正在变得更加公平吗</h1>
+            <p class="banner-text" align="center">十六年教育数据可视化</p>
+        </div>
+            <img src="images/front.png" >
+        </div>
+    </div>
+
+
+<!--内容主体-->
+    <div class="container">
+        <div class="contain" style="margin-top:0">
+            <br/>
+            <h2 class="majorr"><span>全国数据</span></h2>
+            <br/>
+            <div class="bigtitle">每10个文盲里，至少有7名是女性</div>
+            <br/><br/>
+            <div class="charttitle" >2002-2017男女文盲比例 </div>
+            <div align="center">
+                <div style="position:relative; text-align: center;width: 800px;margin-top: -20px">
+                    <div style="margin-bottom:200px">
+                        <div id='main5' style="width: 800px;height: 316px;top:50px;margin:0 auto"> </div>
+                        <div id='male' style="width: 800px;height: 300px;position:absolute;top: 250px; left: -323px; bottom: 0; right: 0;margin: auto;">
+                            <div class="fadeInUp wow " data-wow-delay=".5s">
+                                <p class="xiajiang1" style="font-size:36px; color:#aa7f7b;position:absolute;left:180px;top:15px;font-weight:bold;font-size:40px;">⬇2.8%</p>
+                            </div>
+                            <img src="images/male.png"/>
+                        </div>
+                        <div id="female" style="width: 800px;height: 300px;position:absolute;top: 250px;  bottom: 0; right: 0;left:160px;margin: auto;">
+                            <div  class="fadeInUp wow " data-wow-delay=".5s">
+                                <p class="xiajiang1" style="font-size:36px; color:#aa7f7b;position:absolute;left:500px;top:15px;font-weight:bold;font-size:40px;">⬇7.15%</p>
+                            </div>
+                            <img src="images/female.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartdiscription">
+                    <p>
+                        从上图中可以看出，在2002年到2017年间，男女文盲比例分别下降了2.8%和7.15%，而男女的文盲比例差距依然悬殊。
+                    </p>
+                </div>
+                <div class="contain">
+                    <!--面积图-->
+                    <div class="bigtitle">尽管女性文盲比例的下降幅度较大，其比例仍是男性文盲比例的两倍多</div>
+                    <br/><br/>
+                    <div class="charttitle">这里是图表标题 </div>
+                    <div id="main1" style="width: 800px;height:600px;margin:0 auto"></div>
+                    <div class="chartdiscription">
+                        <p>
+                            上图描述了男女文盲在所有人群中的占比。从图中可以看到，在头几年间，女性的文盲比例甚至高达总人数的十分之一。虽然男女文盲比例历年有所下降， 男性文盲比例缩小得并不多，而女性的文盲比例变化较大，但依然与男性的比例存在较明显差距。
+                        </p>
+                    </div>
+
+                    <div class="contain">
+                        <div class="bigtitle">义务教育政策在基础教育领域的显著成果</div>
+                        <br/><br/>
+                        <div class="charttitle">这里是图表标题 </div>
+                        <div id="main2" style="width: 800px;height:600px;margin:0 auto"></div>
+                        <div class="chartdiscription">
+                            <p>
+                                02-05年拥有小学文凭和初中文凭的男女比例均无明显变化，而06年“义务教育”政策出台后，男女的学历均有显著提高，从图中可以看出，拥有小学文凭的男女比例直线下降，而拥有初中文凭的人数占比却有明显的涨幅。15年后，国内经济日益好转，更多的人迈入了高中校园，拿到了高中文凭，于是拥有小学文凭和初中文凭的男女比例均有了下降的趋势。
+                            </p>
+
+                        </div>
+        </div>
+
+
+
+        <div class="contain">
+            <!--追逐图-->
+            <div class="bigtitle">女性在高等教育领域的弯道超车</div>
+            <br/><br/>
+            <div class="charttitle"><p>这里是图表标题</p> </div>
+            <div id="main3" style="width: 800px;height:400px;margin:0 auto"></div>
+            <div class="chartdiscription">
+
+                <p>
+                    在刚开始的六年间，虽然拥有高等学历（拥有专科、普本或硕士学历）的女性比例低于男性，但随着年份的增长，高学历女性逐年增加，而高学历男性逐年减少。在2010年，女性完成了在高等学历上的弯道超车，在比例上实现了对高学历男性的超越；同时，在之后的几年中，两者间的差距逐渐增大，女性在高等教育领域的领先优势越来越明显。
+                </p>
+        </div>
+
+        <div class="contain">
+            <div id="main4" style="width: 800px;height:400px;margin:0 auto"></div>
+        </div>
+
+        <div class="row">
+            <div id="main6" class="span6"></div>
+            <div id="main7" class="span6"></div>
+        </div>
+
+        <div class="contain">
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+<!-- 页脚 -->
+<footer class="footer-area section-padding" style="position:absolute;left:0px">
+  <div class="container" >
+	<div class="row">
+	  <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s" >
+		<h3>数据来源</h3>
+		<ul>
+		  <li><a href="#">中国国家数据库</a></li>
+		  <li><a href="#">中华人民共和国教育部</a></li>
+		</ul>
+	  </div>
+	  <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+		<h3>相关链接</h3>
+		<ul>
+		  <li><a href="#">相关报道</a></li>
+		  <li><a href="#">相关报道</a></li>
+		  <li><a href="#">相关报道</a></li>
+		  <li><a href="#">相关报道</a></li>
+		  <li><a href="#">原始数据</a></li>
+		</ul>
+	  </div>
+	  <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+		<h3>小组成员</h3>
+          <ul>
+		  <li><a href="#">林雁辉</a></li>
+		  <li><a href="#">江晓晴</a></li>
+		  <li><a href="#">周嘉雯</a></li>
+		  <li><a href="#">罗夏林</a></li>
+		  <li><a href="#">罗智</a></li>
+		</ul> 
+			  </div>
+	  <div class="col-md-6 col-lg-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.8s">
+		<h3>留下你的信息</h3>
+		<div class="widget">
+		  <div class="newsletter-wrapper">
+			<form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+			  <div class="form-group is-empty">
+				<input type="email" value="" name="Email" class="form-control" id="EMAIL" placeholder="Your email" required="">
+
+				<div class="clearfix"></div>
+			  </div>
+			</form>
+		  </div>
+		</div>
+		<!-- /.widget -->
+		<div class="widget">
+		  <h5 class="widget-title" style="font-weight:700;">联系我们</h5>
+		  <ul class="footer-social">
+			<li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+			<li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+			<li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>
+			<li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+  </div>
+ 
+</footer>
+        <script src="extension\base.js"></script>
+        <script src="extension\pile.js"></script>
+        <script src="extension\school.js"></script>
+        <script src="extension\highly_educated.js"></script>
+        <script src="extension\doctor.js"></script>
+        <script src="extension\wenmang.js"></script>
+        <script src="extension\map.js"></script>
+    </div>
+
+</body>
+</html>
