@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport", width=device-width, initial-scale=1.0>
+    <title>gender education</title>
+    <script src="extension\echarts.js"></script>
+    <script src="extension\education_data.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/nini.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/base.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="data/china.js"></script>
+</head>
+<body>
+
+
+<!--标题文字-->
+    <div id="banner" style="position: relative; width: 100%;height:100%">
+        <div class="fad" style="position:absolute;top: 40%; right: 0;left: 30%;" >
+            <h1 class="banner-title" style="letter-spacing:10px;color:#595959;font-size: 52px">男女教育普及<br>正在变得更加公平吗?</h1>
+            <p class="banner-text" style="color:#9f9c95;font-family:Microsoft JhengHei Light">Is gender education becoming more equitable?</p>
+            <br>
+            <p class="banner-text" style="color:#9f9c95;font-family:Microsoft JhengHei Light">在中国，从很早开始，在教育上重男抑女的观念根深蒂固。但是这么多年来，义务教育等政策的<br/>实施，全国的经济的迅猛发展，是否让男女教育的普及变得更加公平？我们打算透过数据，讲述<br/>从02年到17年，这15年来的变化。</p>
+        </div>
+            <img src="images/front.png" >
+        </div>
+    </div>
+
+
+<!--图1-->
+    <div class="container">
+        <div class="contain" style="margin-top:0" id="contain1">
+            <br/>
+            <h2 class="majorr"><span>基础教育</span></h2>
+            <br/>
+            <div class="bigtitle">尽管降幅更大，女性文盲占女性人口的比例，仍以两倍远超男性</div>
+            <br/><br/>
+            <div class="charttitle" >2002-2017男女文盲比例变化总情况 </div>
+            <div align="center">
+                <div style="position:relative; text-align: center;width: 800px;margin-top: -80px">
+                    <div style="margin-bottom:290px">
+                        <div id='main5' class="wow fadeInUp" data-wow-delay="0.3s"> </div>
+                        <div id='male' style="width: 800px;height: 300px;position:absolute;top: 250px; left: -323px; bottom: 0; right: 0;margin: auto;">
+                            <div class="fadeInUp wow " data-wow-delay="0.5s">
+                                <p class="xiajiang1" style="font-size:36px; color:#aa7f7b;position:absolute;left:180px;top:15px;font-weight:bold;font-size:40px;">⬇2.8%</p>
+                            </div>
+                            <img src="images/male.png"/>
+                        </div>
+                        <div id="female" style="width: 800px;height: 300px;position:absolute;top: 250px;  bottom: 0; right: 0;left:160px;margin: auto;">
+                            <div  class="fadeInUp wow " data-wow-delay=".5s">
+                                <p class="xiajiang1" style="font-size:36px; color:#aa7f7b;position:absolute;left:500px;top:15px;font-weight:bold;font-size:40px;">⬇7.15%</p>
+                            </div>
+                            <img src="images/female.png"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="chartdiscription" >
+                    <p>
+                        根据联合国教科文组织发布的数据显示，截止至2017年，中国文盲人数排在世界第二。在中国，每10个文盲中，至少有7名是女性，虽然从02年到17年，男女文盲比例分别下降了2.8%和7.15%，女性文盲比例下降幅度明显，但是女性文盲的比例仍然远远高于男性文盲。
+                    </p>
+                </div>
+
+
+    <!--面积图-->
+    <div class="contain" id="contain3">
+        <div class="charttitle"><p>2002-2017男女性文盲分别占男女人口的比例</p> </div>
+        <div id="main1" class="wow fadeInUp" data-wow-delay="0.4s"></div>
+        <div class="bottomchartext">
+            男文盲率=6岁以上未上过学的男性数量/男性总数<br/>
+            女文盲率=6岁以上未上过学的女性数量/女性总数
+        </div>
+        <div class="chartdiscription">
+            <p>
+                总体上看，男女文盲在所有人群的占比都在不断的下降。在02年至05年间，女性的文盲比例甚至高达总人数的十分之一。从文盲比例下降的幅度来说，女性文盲比例下降更为明显，但是两者的差距仍十分悬殊。
+            </p>
+        </div>
+
+<!-- 文盲率历年变化图-->
+        <div class="contain" id="contain2">
+            <div class="contain4">
+                <div class="bigtitle"style="margin-bottom: 50px">历年发展中，女性未受教育比例一直高于男性未受教育比例</div>
+                <div class="charttitle" style="margin-bottom: 65px">2002-2017男女未受教育比例 </div>
+                <div id="pic" class="wow fadeInUp" data-wow-delay="0.4s">
+                    <img src="images/circle.gif" alt="文盲率历年变化图">
+                </div>
+                <div class="bottomchartext2">
+
+                        左图：女文盲率=6岁以上未上过学的女性数量/女性总数<br/>
+                        右图：男文盲率=6岁以上未上过学的男性数量/男性总数<br/>
+                        图三：男文盲比例=6岁以上未上过学的男性数量/6岁以上未上过学的男女总数<br/>
+                        女文盲比例=6岁以上未上过学的女性数量/6岁以上未上过学的男女总数
+
+                </div>
+                <div class="chartdiscription">
+                    <p>
+                        左右两图分别表示的从2002年到2017年，女性未受教育人数和男性未受教育人数在总体女性和男性中的占比，女性和男性的状况都在逐年好转，男女的未受教育人数比例在16年间都降低了相近一半。虽然男女的文盲比例都在降低，但从第三张男女文盲人数比例图可以看出，16年来男女文盲比例变化甚微，两者之间的差距依然维持在2.5倍之远。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+<!--义务教育-->
+        <h2 class="majorr"><span>义务教育</span></h2>
+        <div class="contain4">
+            <div class="bigtitle">义务教育政策在基础教育领域的显著成果</div>
+            <br/><br/>
+            <div class="charttitle"><p>小学学历比例条形图&初中学历比例折线图</p> </div>
+            <div id="main2" class="wow fadeInUp" data-wow-delay="0.4s"></div>
+            <div class="bottomchartext">
+                    小学学历男性比例=拥有小学文凭的男性数量/男性总数<br/>
+                    小学学历女性比例=拥有小学文凭的女性数量/女性总数<br/>
+                    中学学历男性比例=拥有中学文凭的男性数量/男性总数<br/>
+                    中学学历女性比例=拥有中学文凭的女性数量/女性总数<br/>
+                    高中学历男性比例=拥有中学文凭的男性数量/男性总数<br/>
+                    高中学历女性比例=拥有中学文凭的女性数量/女性总数
+            </div>
+            <div class="chartdiscription">
+                <p>
+                    2002至2005年，拥有小学文凭和初中文凭的男女性比例都在波动。而从2006年开始，拥有小学文凭的男女性比例都直线下降，而拥有初中文凭的人口比例，无论男女，都有显著而连续的提升，拥有初中文凭的女性比例涨幅，微微超过拥有初中文凭的男性。
+                </p>
+                <br/>
+                <p>
+                    14岁的张玉，读书是她所渴求的梦想，但却也是可望而不可及的梦。
+                </p>
+                <br/>
+                <p>
+                    一年前，因为家庭经济困难，张玉的父母无法负担起三个孩子的教育费用，让念小学五年级的大姐张玉从学校辍学返家。辍学后的张玉每天帮忙家务和农活，还要照顾两个弟弟的生活起居，生活的重担早早的压在这个年仅14岁的小姑娘肩上。虽然不能去上课，但偶尔空闲的时候，张玉还是会拿出封面已经褪色的课本，照着课本上的文章，一字一句地读起来。在中国，当家庭面临这种两难的选择时，尤其是在农村家庭，做出牺牲与让步的往往都会是女孩。
+
+                </p>
+                <br/><br><br>
+                <img src="images/chatu.jpg" alt="插图">
+                <br><br><br>
+                <p>
+                    2006年，是全国推行义务教育学费全免的第一年。从数据上看，在06年以后，有更多的孩子有机会进入初中阶段的教育，有更多由于家庭经济困难而放弃读书的孩子，有机会走入初中的学堂。
+                </p>
+                <br/>
+                <p>
+                    尽管张玉已经辍学一年，她仍想回到课堂。接到政策消息的那一天，老师第一个想到的就是张玉。尽管每天还是需要五点钟早起帮忙家务，9月1日，张玉重新回到了熟悉又陌生的学校。
+                </p>
+                <br/>
+                <p>
+                    近5-10年，拥有初中文凭的男女性比例又渐渐下降，于此同时，拥有初中文凭的男女性比例也仍在降低。这是个很有趣的现象，在这期间，拥有高中文凭的男女性比例一直在升高。这意味着有更多的孩子不仅仅是止步于初中阶段的教育，而是有机会升读高中，甚至参加高考。
+                </p>
+                <br/>
+                <p>
+                    张玉能有机会敲开高中课堂的门吗？这个故事还没有到头，但对张玉来说，她的求学路从句号变成了逗号。
+                </p>
+            </div>
+        </div>
+
+<!--弯道超车-->
+        <h2 class="majorr"><span>高等教育</span></h2>
+        <div class="contain" id="cantain5">
+            <!--追逐图-->
+            <div class="bigtitle">女性在高等教育领域又能否弯道超车？</div>
+            <br/><br/>
+            <div class="chartdiscription" style="margin-top: -10px;">
+                <p>
+                    李玲，研二在读。获得保送名额的她，最终选择放弃了博士学习。
+                </p>
+                <br/>
+                <p>
+                    “主要还是由于家里人的反对。”李玲低下头自嘲般地笑了笑，“说起来还有点讽刺，读高中大学的时候他们卯足了劲让我多学点上个好学校。到了报考研究生的时候他们就不太支持我，但我还是坚持。现在也是他们苦口婆心地劝我别读博士。”
+                </p>
+                <br/>
+                <p>
+                    显然，高等教育对女性的接纳是个持久的攻坚战，每一点小小的进步都需要数十年的积累。我们或许有信心有决心去改变这种社会现况，但李玲却是永远的失去了这个机会。
+                </p>
+
+            </div>
+            <div class="charttitle"><p>14年来普本专科及硕士男女在校比例</p> </div>
+            <div id="main3" class="wow fadeInUp" data-wow-delay="0.4s"></div>
+            <div class="bottomchartext">
+
+                    普本专科在读男性比例=普本专科在读的男性数量/在读普本专科男女总数<br/>
+                    普本专科在读女性比例=普本专科在读的女性数量/在读普本专科男女总数<br/>
+                    硕士在读男性比例=硕士学历的男性数量/在读硕士男女总数<br/>
+                    硕士在读女性比例=硕士学历的女性数量/在读硕士男女总数
+
+            </div>
+            <div class="chartdiscription">
+                <p>
+                    在刚开始的六年间，虽然拥有高等学历（拥有专科、普本或硕士学历）的女性比例低于男性，但随着年份的增长，高学历女性逐年增加，而高学历男性逐年减少。在2010年，女性完成了在高等学历上的弯道超车，在比例上实现了对高学历男性的超越；同时，在之后的几年中，两者间的差距逐渐增大，女性在高等教育领域的领先优势越来越明显。
+                </p>
+        </div>
+
+            <!--地图-->
+            <div id="cantain7">
+                <div class="bigtitle">全国女性高等教育（研究生 博士）在校生比例最高的地方在内陆地区</div>
+                <br/><br/>
+                <div class="charttitle"><p>研究生及以上在读女性比例热图</p> </div>
+                <div class="row">
+                    <div id="main6" class="span5 wow fadeInUp" data-wow-delay="0.4s"></div>
+                    <div id="main7" class="span5 wow fadeInUp" data-wow-delay="0.4s"></div>
+                </div>
+                <div class="bottomchartext">
+                    研究生及以上在读女性比例=研究生及以上在读女性数量/研究生及以上在读男女总数
+                </div>
+                <div class="chartdiscription">
+                    <p>
+                        13-17年这五年间，在读研究生及以上的女性比例最高的三个省份大多位于西北内陆，且各地四年中的女性比例变化均不明显。值得关注的是，我们认为教育发展较好的沿海地区并未有突出表现。</p>
+                </div>
+            </div>
+
+
+
+<!--博士-->
+        <div class="contain" id="cantain6">
+            <div class="bigtitle">十名博士中，仅有不到四名的女博士</div>
+            <br/><br/>
+            <div class="charttitle"><p>博士男女比例变化</p> </div>
+            <div id="main4" class="wow fadeInUp" data-wow-delay="0.4s"></div>
+            <div class="bottomchartext">
+                <p>
+                    在读男博士比例=在读男博士人数/在读男女博士生总数<br/>
+                    在读女博士比例=在读女博士人数/在读男女博士生总数
+                </p>
+            </div>
+            <div class="chartdiscription">
+                <p>
+                    在04年到17年这十四年间，女博士的在校生比例从三成提高到了四成，但与男博士的在校生比例相比仍有很大差距。
+                </p>
+                <br/>
+                <p>
+                    和大多数女性一样，李玲也逐渐接受甚至习惯了大众对女博士的看法。习惯了网络群众在谈论起女博士时，话题永远围绕着她们的婚恋和生育情况。习惯了博士招生中，女性因为生育问题而不得不遭受来自导师或多或少的歧视。
+                </p>
+                <br/>
+                <p>
+                    “尽管我也知道女性在教育领域会遭受一定程度的不公或者歧视，但这么多年过去感觉也就这样了。”她掏出手机翻出一条新闻说道，“前段时间，还有个大学教授还公开建议导师们在博士招生中优先考虑男性，女性想要报考最好先约定好读书期间的生育计划。”她就这么一直不死心一般盯着手机，“有时候，生而为女，就是我们的原罪。”
+                </p>
+        </div>
+        <button id="btn_top">
+            ⬆
+        </button>
+
+
+
+
+<!-- 页脚 -->
+<footer class="footer-area section-padding" style="position:absolute;left:0px">
+  <div class="container" >
+	<div class="row">
+	  <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s" >
+		<h3>数据来源</h3>
+		<ul>
+		  <li><a href="http://data.stats.gov.cn/easyquery.htm?cn=C01">中国国家数据库</a></li>
+		  <li><a href="http://www.moe.gov.cn/s78/A03/moe_560/jytjsj_2017/">中华人民共和国教育部</a></li>
+		  <li><a href="https://zh.unesco.org/gem-report/node/1464">联合国教科文组织全球教育检查报告（GEM）</a></li>
+		</ul>
+	  </div>
+	  <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+		<h3>指导老师</h3>
+		<ul>
+		  <li><a href="#">杨洸</a></li>
+		  <li><a href="#">汪翩翩</a></li>
+		</ul>
+	  </div>
+	  <div class="col-md-6 col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.6s">
+		<h3>小组成员</h3>
+          <ul>
+		  <li><a href="#">林雁辉</a></li>
+		  <li><a href="#">江晓晴</a></li>
+		  <li><a href="#">周嘉雯</a></li>
+		  <li><a href="#">罗夏林</a></li>
+		  <li><a href="#">罗智</a></li>
+		</ul> 
+			  </div>
+
+		<!-- /.widget -->
+<!--		<div class="widget wow fadeInUp" data-wow-delay="0.8s">-->
+<!--		  <h5 class="widget-title " style="font-weight:700;">联系我们</h5>-->
+<!--		  <ul class="footer-social">-->
+<!--			<li><a class="facebook" href="https://github.com/yenava"><i class="lni-github"></i></a></li>-->
+<!--			<li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>-->
+<!--			<li><a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a></li>-->
+<!--			<li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>-->
+<!--		  </ul>-->
+<!--		</div>-->
+<!--	  </div>-->
+	</div>
+  </div>
+
+
+</footer>
+        <script src="extension\base.js"></script>
+        <script src="extension\pile.js"></script>
+        <script src="extension\school.js"></script>
+        <script src="extension\highly_educated.js"></script>
+        <script src="extension\doctor.js"></script>
+        <script src="extension\wenmang.js"></script>
+        <script src="extension\map.js"></script>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+.charttitle  {
+	font-size: 20px;
+	color: #b9b0b0;
+	text-align: center;
+}
+.bottomchartext{
+	line-height:initial;
+	font-size: 5px;
+	color: #b9b0b0;
+	text-align: center;
+}
+.bottomchartext2{
+	line-height:initial;
+	font-size: 5px;
+	color: #b9b0b0;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.bigtitle  {
+	font-size: 24px;
+	line-height: normal;
+	color: #aa7f7b;
+	text-align: center;
+
+}
+
+
+.chartdiscription{
+	margin: 80px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	text-align: justify;
+	top: 30px;
+	width: 800px;
+
+}
+
+
+.chartdiscription span{
+	color: #c75f65;
+
+}
+
+.chartdiscription p{
+ margin:0;
+}
+
+
+
+.explanationnote{
+	position: relative;
+	text-align: center;
+	color: #B3B3B3;
+	font-size: 12px;
+	top: 20px;
+
+}
+
+h2 {
+		font-size: 1.65em;
+	}
+
+		h2.majorr {
+			position: relative;
+			border-top: solid 5px #e7eae8;
+			font-size: 1.65em;
+			text-align: center;
+			margin: 0 0 3em 0;
+			top: 0.775em;
+		}
+
+			h2.majorr span {
+				background: #fff;
+				position: relative;
+				display: inline-block;
+				top: -0.775em;
+				
+			}
+
+@font-face {
+	  font-family:'ss'; /*这个相当于给字体起个名字，比如“微软雅黑”*/
+	  src:url('SourceHanSerifCN-SemiBold-7.otf'); /*指定字体的路径*/
+	}
+
+
+.chartcategory{
+	color:#aa7f7b;
+}
+
+.bannertitle{
+	font-size: 70px;
+	color:#4D4D4D;
+	font-weight:bolder;
+}
+
+.englishtitle{
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+
+}
+
+
+
+
+
+
+
